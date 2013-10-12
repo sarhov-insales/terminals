@@ -1,6 +1,6 @@
 html{
 	height: 100%;
-}
+	
 
 .all-wrap{
 	-webkit-box-shadow: 0 0 4px #ddd;
@@ -64,6 +64,8 @@ html{
 .top-nav-item-url:hover, .top-nav-item-url.active{
 	color: #000;
 }
+
+
 /*END top nav*/
 
 /*the search block*/
