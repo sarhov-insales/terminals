@@ -1,0 +1,17 @@
+.all-wrap{
+	-webkit-box-shadow: 0 0 8px #444;
+	-moz-box-shadow: 0 0 8px #444;
+	box-shadow: 0 0 8px #444;
+	margin:5px auto;
+	width: 100%;
+	min-width:960px;
+}
+
+.g-outer{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.g-inner{
+	width: 960px;
+}
