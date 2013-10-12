@@ -1,6 +1,6 @@
 .cf:before,.cf:after {
   content: " "; /* 1 */
-display: table; /* 2 */
+  display: table; /* 2 */
 }
 
 .cf:after {
@@ -53,8 +53,9 @@ display: table; /* 2 */
 
 
 * {
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 :focus {
 outline: 0;
 border:none;
