@@ -52,6 +52,7 @@ html{
 	float: left;
 	height: 43px;
 	padding-right: 20px;
+	text-transform: capitalize;
 }
 
 .top-nav-item-url{
@@ -130,7 +131,7 @@ html{
 .b-social_header{
 	width: 135px;
 	margin-left: 60px;
-	padding-top: 20px;
+	
 }
 
 .b-social-item{
@@ -173,7 +174,7 @@ html{
 
 /* b-bnn*/
 
-.b-bnn{
+.b-bnn-wrap{
 	height: 700px;
 	background: #fff url('../images/bnn-bg.png') center 0 no-repeat;
 }
