@@ -1,0 +1,49 @@
+/*the main one*/
+
+
+.button{
+	border: none;
+	background: #FFCC00;
+	padding: 9px 20px 11px;
+	line-height: 1;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow:  0 3px 0px 0px #FFB800, 0 6px 9px -6 #787878;
+	-moz-box-shadow: 0 3px 0px 0px #FFB800, 0 6px 11px -5px #787878;
+	box-shadow: 0 3px 0px 0px #FFB800, 0 6px 11px -5px #787878;
+}
+
+.button:hover{
+	background: #F2C40F;
+}
+
+.button:active{
+	-webkit-box-shadow:inset  0 2px 0px 0px #FFCC00, 0 2px 0px 0px #FFB800;
+	-moz-box-shadow:inset 0 2px 0px 0px #FFCC00, 0 2px 0px 0px #FFB800;
+	box-shadow:inset 0 2px 0px 0px #FFCC00, 0 2px 0px 0px #FFB800;
+	top: 2px;
+}
+
+/*blue one*/
+
+.button-blue{
+	background: #c8d3e6;
+	-webkit-box-shadow:  0 3px 0px 0px #b2c1dc, 0 6px 9px -6 #787878;
+	-moz-box-shadow: 0 3px 0px 0px #b2c1dc, 0 6px 11px -5px #787878;
+	box-shadow: 0 3px 0px 0px #b2c1dc, 0 6px 11px -5px #787878;
+}
+
+.button-blue:hover{
+	background: #9DB1D7;
+}
+
+.button-blue:active{
+	-webkit-box-shadow:inset  0 2px 0px 0px #c8d3e6, 0 2px 0px 0px #b2c1dc;
+	-moz-box-shadow:inset 0 2px 0px 0px #c8d3e6, 0 2px 0px 0px #b2c1dc;
+	box-shadow:inset 0 2px 0px 0px #c8d3e6, 0 2px 0px 0px #b2c1dc;
+	top: 2px;
+}
