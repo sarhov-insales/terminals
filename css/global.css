@@ -43,18 +43,14 @@ display: table; /* 2 */
   clear: right;
 }
 
-
-
-
-.gl-outer{
-  width: 100%;
+.hide{
+  display: none;
 }
 
-.gl-inner{
-  max-width: 944px;
-  width:100%;
-  margin:0 auto;
+.show{
+  display: block;
 }
+
 
 * {
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
