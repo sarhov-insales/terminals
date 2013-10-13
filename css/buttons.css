@@ -16,9 +16,9 @@
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	-webkit-box-shadow:  0 3px 0px 0px #FFB800, 0 6px 9px -6 #787878;
-	-moz-box-shadow: 0 3px 0px 0px #FFB800, 0 6px 11px -5px #787878;
-	box-shadow: 0 3px 0px 0px #FFB800, 0 6px 11px -5px #787878;
+	-webkit-box-shadow:  0 3px 0px 0px #FFB800, 0 6px 7px -6 #787878;
+	-moz-box-shadow: 0 3px 0px 0px #FFB800, 0 6px 7px -5px #787878;
+	box-shadow: 0 3px 0px 0px #FFB800, 0 6px 7px -5px #787878;
 }
 
 .button:hover{
