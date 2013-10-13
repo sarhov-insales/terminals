@@ -27,7 +27,7 @@ html{
 }
 
 .m-head{
-	margin: 20px auto;
+	margin: 30px auto;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
@@ -124,7 +124,7 @@ html{
 
 /*the sec-head*/
 
-.sec-head{
+.b-sec-head{
 	margin-bottom: 10px;
 }
 
@@ -190,6 +190,7 @@ html{
 	cursor: pointer;
 	background: transparent url('../images/info-icon.png') center center no-repeat;
 	right: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .b-bnn-item-info-wrap.first{
@@ -211,6 +212,7 @@ html{
 
 .b-bnn-item-info-wrap:hover > .b-bnn-item-info{
 	display: block;
+	z-index: 1;
 }
 
 .b-bnn-item-info{
@@ -218,19 +220,20 @@ html{
 	width: 260px;
 	bottom:-30px;
 	left: 50%;
-	
+	z-index:2;
 	margin-left: -130px;
-
 	padding-top: 20px;
+	z-index: -1;
 }
 
 .item-info-inner {
 	position: relative;
 	background: #fff;
 	border: 2px solid #fff;
-		-webkit-box-shadow: 0 0 4px #444;
-	-moz-box-shadow: 0 0 4px #444;
-	box-shadow: 0 0 4px #444;
+	-webkit-box-shadow: 0 2px 3px #444;
+	-moz-box-shadow: 0 2px 3px #444;
+	box-shadow: 0 2px 3px #444;
+	padding: 10px;
 	
 }
 .item-info-inner:after, .item-info-inner:before {
