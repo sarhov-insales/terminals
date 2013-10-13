@@ -9,7 +9,7 @@ html{
 	margin:0  auto;
 	width: 100%;
 	min-width:960px;
-	height: 100%;
+	height:auto;
 	border-top: 8px solid #000;
 	border-bottom: 8px solid #000;
 	font:14px/1.5  Arial, Helvetica, sans-serif;
@@ -175,7 +175,10 @@ html{
 /* b-bnn*/
 
 .b-bnn-wrap{
-	height: 700px;
+	min-height: 700px;
 	background: #fff url('../images/bnn-bg.png') center 0 no-repeat;
 }
 
+.b-bnn-item{
+	width: 30%;
+}
