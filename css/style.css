@@ -29,7 +29,7 @@ html{
 .m-head{
 	margin: 20px auto;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .top-nav{
@@ -182,5 +182,78 @@ html{
 .b-bnn-item{
 	width: 33.3333%;
 	text-align: center;
+}
 
+.b-bnn-item-info-wrap{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: transparent url('../images/info-icon.png') center center no-repeat;
+	right: 0;
+}
+
+.b-bnn-item-info-wrap.first{
+	top: 20px;
+	right: 20px;
+}
+
+.b-bnn-item-info-wrap.second{
+	bottom:-10px;
+	margin-left:-20px;
+	left: 50%;
+}
+
+.b-bnn-item-info-wrap.last{
+	bottom:0;
+	top: 25%;
+	left: 20px;
+}
+
+.b-bnn-item-info-wrap:hover > .b-bnn-item-info{
+	display: block;
+}
+
+.b-bnn-item-info{
+	text-align: left;
+	width: 260px;
+	bottom:-30px;
+	left: 50%;
+	
+	margin-left: -130px;
+
+	padding-top: 20px;
+}
+
+.item-info-inner {
+	position: relative;
+	background: #fff;
+	border: 2px solid #fff;
+		-webkit-box-shadow: 0 0 4px #444;
+	-moz-box-shadow: 0 0 4px #444;
+	box-shadow: 0 0 4px #444;
+	
+}
+.item-info-inner:after, .item-info-inner:before {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.item-info-inner:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 13px;
+	left: 50%;
+	margin-left: -13px;
+}
+.item-info-inner:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 16px;
+	left: 50%;
+	margin-left: -16px;
 }
