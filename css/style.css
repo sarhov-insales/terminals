@@ -593,10 +593,16 @@ html{
 /*item-wrap*/
 
 .item-wrap{
-	height: 400px;
+	padding: 30px 20px 20px 40px;
 	background: #fafafb;
 	width: 100%;
 	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.item-image-box{
+	width: 160px;
+	margin-right: 40px;
 }
 
 .item-wrap:after{
@@ -607,4 +613,26 @@ html{
 	right: -120px;
 	top: 0;
 	background: #FAFAFB;
+}
+
+.item-info{
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.item-short-description{
+	font-size: 18px;
+	color: #000;
+}
+
+.item-title_item{
+	font-size: 24px;
+}
+
+.property-table_item{
+	margin-bottom: 20px;
+}
+
+.item-description{
+	margin-bottom: 30px;
 }
