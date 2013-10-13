@@ -4,8 +4,12 @@
 .button{
 	border: none;
 	background: #FFCC00;
-	padding: 9px 20px 11px;
+	padding: 8px 30px 10px;
 	line-height: 1;
+	font-size: 20px;
+	color:#584400;
+	text-shadow: 1px 0 1px #584400;
+	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	display: inline-block;
 	text-decoration: none;
