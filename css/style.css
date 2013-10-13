@@ -298,6 +298,28 @@ html{
 	height: 80px;
 }
 
+.b-partners-carousel-button{
+    border: medium none;
+    display: inline-block;
+    height: 30px;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 30px;
+}
+
+.b-partners-carousel-button:hover{
+	background-color: #ddd;
+}
+
+.b-partners-carousel-button_prev{
+	 background: url("../images/arrow-icon-left.png") no-repeat scroll center center #CCCCCC;
+}
+
+.b-partners-carousel-button_next{
+	 background: url("../images/arrow-icon.png") no-repeat scroll center center #CCCCCC;
+}
+
 /*END site-info-wrap*/
 
 /*b-main-block*/
@@ -393,3 +415,37 @@ html{
 .price-zone_product-item{
 	margin-bottom: 20px;
 }
+
+/*END b-main-blocks*/
+
+
+/*footer-wrap*/
+
+.footer-wrap{
+	background: #fafafb;
+	padding: 20px 0;
+}
+
+.m-foot{
+	padding: 0 20px;
+}
+
+.copyright{
+	width: 50%;
+	font-family: 'Open Sans', sans-serif;
+	margin:10px auto 0;
+	text-align:center;
+	font-size: 14px;
+}
+
+.copyright-url{
+	text-decoration: none;
+	color: #000;
+}
+
+.copyright-url:hover{
+	text-decoration: underline;
+}
+
+
+
