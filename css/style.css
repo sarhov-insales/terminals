@@ -343,10 +343,11 @@ html{
 	margin-bottom: 60px;
 }
 
-.b-products{
+.b-products_main-page{
 	width: 680px;
-	padding-left: 10px;
+	padding-left: 30px;
 }
+
 
 .b-news{
 	width: 280px;
@@ -375,12 +376,13 @@ html{
 }
 
 .product-item{
-	width: 330px;
+	width: 320px;
 	background: #fff;
-	padding: 10px;
+	padding: 10px 2px 10px 7px ;
 	margin: 1px;
 	height: 215px;
 }
+
 
 .b-news-item{
 	padding-left: 10px;
