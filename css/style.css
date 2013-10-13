@@ -397,8 +397,9 @@ html{
 }
 
 .product-item-image{
-	width: 80px;
-	margin-right: 2%;
+	width: 100px;
+	margin-right: 5px;
+	margin-left: 10px;
 }
 
 .product-item-image-url{
@@ -411,8 +412,7 @@ html{
 }
 
 .product-info-part{
-	width: 68%;
-	margin-left: 2%;
+	width: 195px;
 	overflow-x: hidden;
 }
 
