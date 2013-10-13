@@ -167,7 +167,7 @@ html{
 .b-phone{
 	width: 200px;
 	color: #000;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 24px;
 }
 
@@ -305,18 +305,16 @@ html{
 .b-main-blocks{
 	padding: 53px 0px;
 	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px;
 }
 
 .b-products{
 	width: 680px;
-		padding-left: 10px;
-
+	padding-left: 10px;
 }
 
 .b-news{
 	width: 280px;
-
-	
 }
 
 .main-title{
@@ -326,7 +324,6 @@ html{
 .b-news_main_title{
 	padding: 0;
 }
-
 
 .main-title, .main-title-url{
 	font-family: Arial, Helvetica, sans-serif;
