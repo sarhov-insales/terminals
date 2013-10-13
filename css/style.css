@@ -634,5 +634,20 @@ html{
 }
 
 .item-description{
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+.price-variant-box{
+	margin-right: 30px;
+}
+
+.price-zone_item{
+	margin-bottom: 10px;s
+}
+
+.item-variants{
+	height: 50px;
+	clear:both;
+	width: 100%;
+	background: #ddd;
 }
