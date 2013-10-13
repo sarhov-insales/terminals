@@ -297,3 +297,15 @@ html{
 	float: left;
 	height: 80px;
 }
+
+/*END site-info-wrap*/
+
+/*b-main-block*/
+
+.b-products{
+	width: 660px;
+}
+
+.b-news{
+	width: 260px;
+}
