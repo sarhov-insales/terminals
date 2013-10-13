@@ -95,4 +95,27 @@
 	font-size: 24px;
 }
 
+.b-news{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.b-news-item-title{
+	margin: 0 0 10px 0;
+	font-size: 14px;
+}
+
+.b-news-date{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.b-news-item-title-url{
+	text-decoration: none;
+	color: #333;
+}
+
+.b-news-item-title-url:hover{
+	color: #000;
+}
+
 
