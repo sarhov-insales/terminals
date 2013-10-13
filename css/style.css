@@ -14,6 +14,7 @@ html{
 	border-bottom: 8px solid #000;
 	font:14px/1.5  Arial, Helvetica, sans-serif;
 	color: #333;
+	overflow-x: hidden;
 }
 
 .g-outer{
@@ -586,3 +587,24 @@ html{
 	color: #000 !important;
 }
 
+/*END line-block*/
+
+
+/*item-wrap*/
+
+.item-wrap{
+	height: 400px;
+	background: #fafafb;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.item-wrap:after{
+	content:'';
+	width: 120px;
+	height: 100%;
+	position: absolute;
+	right: -120px;
+	top: 0;
+	background: #FAFAFB;
+}
